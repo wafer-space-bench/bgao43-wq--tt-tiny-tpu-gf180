@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/bgao43-wq/tt-tiny-tpu-gf180
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_bgao43
+  project: Tiny TPU Systolic Array
+  size: 1x2
+  kind: digital (SystemVerilog)
+  commit: fda7c588817445464f7daf07d2637512471ab462
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_bgao43
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_bgao43
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:16:00Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_bgao43
+- upstream/main
